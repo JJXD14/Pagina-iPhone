@@ -1,149 +1,167 @@
+/** @format */
+
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-
+*::after {
+  margin: 0;
+  padding: 0;
 }
-html{
-    font-size: 9.25px;
-    font-family: 'SF Pro Display', sans-serif;
+html {
+  font-size: 9.25px;
+  font-family: "SF Pro Display", sans-serif;
 }
-a{
-    display: block;
-    text-decoration: none;
+a {
+  display: block;
+  text-decoration: none;
 }
-.container{
-    max-width: 98rem;
-    margin: auto;
-    padding: 0 2.2rem;    
-}
-
-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1400;
-    height: 4.4rem;
-    background-color: rgba(0,0,0,.8);
-    backdrop-filter: blur(2rem);
-}
-.nav-list{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 -1rem;
+.container {
+  max-width: 98rem;
+  margin: auto;
+  padding: 0 2.2rem;
 }
 
-.nav-list-mobile{
-    display: none;
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1400;
+  height: 4.4rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(2rem);
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1rem;
 }
 
-.nav-link{
-    font-size: 1.4rem;
-    color: #fff;
-    padding: 0 -1rem;
-    transition: opacity .5s;    
+.nav-list-mobile {
+  display: none;
 }
 
-.nav-link:hover{
-    opacity: .7;
+.nav-link {
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 0 -1rem;
+  transition: opacity 0.5s;
 }
 
-.nav-link-apple{
-    width: 1.6rem;
-    height: 4.4rem;
-    background: url("images/icons/apple.svg") center no-repeat;
+.nav-link:hover {
+  opacity: 0.7;
 }
 
-.nav-link-bag{
-    width: 1.6rem;
-    height: 4.4rem;
-    background: url("images/icons/bag.svg") center no-repeat;
+.nav-link-apple {
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("images/icons/apple.svg") center no-repeat;
 }
 
-.title{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding-top: 5.6rem;
+.nav-link-bag {
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("images/icons/bag.svg") center no-repeat;
 }
 
-.title-heading{
-font-size: 6rem;
-line-height: 1.07143;
-letter-spacing: -.005rem;
+.title {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 5.6rem;
 }
 
-.title-sub-heading{
-    font-size: 2.45rem;
-    margin-top: .6rem;
-    letter-spacing: .008rem;
-    font-weight: 400;
+.title-heading {
+  font-size: 6rem;
+  line-height: 1.07143;
+  letter-spacing: -0.005rem;
 }
 
-.title-price{
-    font-size: 1.9rem;
-    color: #888;
-    margin-top: 1.2rem;
+.title-sub-heading {
+  font-size: 2.45rem;
+  margin-top: 0.6rem;
+  letter-spacing: 0.008rem;
+  font-weight: 400;
 }
 
-.cta{
-    text-align: center;
-    margin-top: 1.2rem;
+.title-price {
+  font-size: 1.9rem;
+  color: #888;
+  margin-top: 1.2rem;
 }
 
-.cta-link{
-    color: #2b9af5;
-    font-size: 1.7rem;
-    display: inline-block;
+.cta {
+  text-align: center;
+  margin-top: 1.2rem;
 }
 
-.cta-link:nth-child(2){
-    margin-left: 2.6rem;
+.cta-link {
+  color: #2b9af5;
+  font-size: 1.7rem;
+  display: inline-block;
 }
 
-.cta-link:hover{
-    border-bottom: 2px solid;
+.cta-link:nth-child(2) {
+  margin-left: 2.6rem;
 }
 
-.iphone-13{
-    
-    height: 90rem;
-    background: url("images/hero/iphone-13/iphone_13_hero_small_2x.png");
-    margin-top: 4.4rem;
-    border-top: none;  
+.cta-link:hover {
+  border-bottom: 2px solid;
 }
 
-.iphone-13-pro{
-    
-    height: 90rem;
-    background: url("images/hero/iphone-13-pro/iphone_13_pro_hero__gqclakbze4a6_medium_2x.png");
-    margin-top: -22.5rem;       
+.iphone-13 {
+  height: 90rem;
+  background: url("images/hero/iphone-13/iphone_13_hero_small_2x.png");
+  margin-top: 4.4rem;
+  border-top: none;
 }
 
-
-
-
-.hero{
-    
-    height:90rem;
-    background-size: auto 38rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: .1rem;
-    border-top: .6 rem solid #fff;
-    border-bottom: .6 rem solid #fff;
+.iphone-13-pro {
+  height: 90rem;
+  background: url("images/hero/iphone-13-pro/iphone_13_pro_hero__gqclakbze4a6_medium_2x.png");
+  margin-top: -22.5rem;
 }
 
-.iphone-13-pro-max{
-    
-    height: 79rem;
-    background: url("images/hero/iphone-13-pro-max/iphone_13_pro_blue.png");
-    margin-top: -22.5rem;
-    background-size: 450px;
-    background-position: center 250px;
-    background-repeat: no-repeat;
-    border-top: .6 rem solid #fff;
-    border-bottom: .6 rem solid #fff;    
+.hero {
+  height: 90rem;
+  background-size: auto 38rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 0.1rem;
+  border-top: 0.6 rem solid #fff;
+  border-bottom: 0.6 rem solid #fff;
+}
+
+.iphone-13-pro-max {
+  height: 79rem;
+  background: url("images/hero/iphone-13-pro-max/iphone_13_pro_blue.png");
+  margin-top: -22.5rem;
+  background-size: 450px;
+  background-position: center 250px;
+  background-repeat: no-repeat;
+  border-top: 0.6 rem solid #fff;
+  border-bottom: 0.6 rem solid #fff;
+}
+
+/* estilos-boton whatsapp */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+.my-float {
+  margin-top: 16px;
 }
